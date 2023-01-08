@@ -10,7 +10,7 @@ I prefer run it inside a docker for the following reasons :
 
 ## Run
 
-Run once `dockerrun, then use `docker stop/start dofus`
+Run once `dockerrun`, then use `docker stop/start` dofus
 
 ## Know problems
 
