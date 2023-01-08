@@ -8,6 +8,10 @@ I prefer run it inside a docker for the following reasons :
 - Avoid making the system "dirty" with Wine installation (need to add 32 bits architecture)
 - Avoid Dofus client to read files it doesn't need to read
 
+## Run
+
+Run once `dockerrun, then use `docker stop/start dofus`
+
 ## Know problems
 
 * Need to click 3 times on "play" to play
