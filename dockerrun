@@ -1,0 +1,15 @@
+docker run -d \
+-e DISPLAY=$DISPLAY \
+--entrypoint /home/user/dofus/Ankama\ Launcher-Setup-x86_64.AppImage \
+-v /tmp/.X11-unix/:/tmp/.X11-unix \
+-v /home/user/dofus:/home/user/dofus \
+-v $PWD/persistence/stockage:/home/user/.config \
+-v $PWD/persistence/cache:/home/user/.cache \
+-v $PWD/persistence/stockage_wine:/home/user/.wine \
+--device /dev/snd \
+--privileged \
+--network=host \
+dofus_dockerimg:latest #"/home/user/dofus/Ankama\ Launcher-Setup-x86_64.AppImage"
+
+#-v $PWD/app:/tmp/app \
+#--name dofus \
